@@ -15,14 +15,30 @@
   --content-bg: #353535;
 }
 
-main {
+body {
   background-color: var(--content-bg);
-  height: calc(100vh - 40px);
+  max-width: 900px;
+}
+
+h1 {
+  font-size: 2rem;
+}
+
+#about-me {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  padding: 20px;
 }
 
 footer {
   height: 40px;
+  width: 100vw;
   display: flex;
+  position: fixed;
+  bottom: 0;
   gap: 20px;
   justify-content: center;
   align-items: center;
