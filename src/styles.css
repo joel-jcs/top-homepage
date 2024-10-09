@@ -307,3 +307,91 @@ footer svg {
     width: 40%;
   }
 }
+
+@media (max-width: 500px) {
+  main {
+    max-width: 90%;
+  }
+
+  main section {
+    padding: 0;
+    width: 100%;
+  }
+
+  #header {
+    all: initial;
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    margin-bottom: 60px;
+  }
+
+  #header-img {
+    height: 400px;
+    width: 100%;
+    object-fit: cover;
+    position: initial;
+    float: none;
+    margin: 0 auto;
+    margin-bottom: 30px;
+  }
+
+  h1 {
+    text-align: center;
+    margin-bottom: 10px;
+  }
+
+  #header-info-container {
+    all: initial;
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  #header-icons-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin-top: 0;
+  }
+
+  #project-container {
+    margin-top: 0;
+  }
+
+  #contact-me {
+    flex-direction: column;
+  }
+
+  #contact-bg {
+    height: 750px;
+  }
+
+  #contact-info-container,
+  #contact-img {
+    width: 100%;
+  }
+
+  #contact-img {
+    all: initial;
+    height: 600px;
+    object-fit: cover;
+    width: 100vw;
+    left: 0;
+  }
+
+  footer {
+    all: initial;
+    width: 100%;
+    background-color: #1a1a1a;
+    color: white;
+    gap: 10px;
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    height: auto;
+    padding: 10px 0;
+    justify-content: center;
+    align-items: center;
+  }
+}
