@@ -357,6 +357,12 @@ footer svg {
 
   #project-container {
     margin-top: 0;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .project-card {
+    width: 100%;
   }
 
   #contact-me {
@@ -367,16 +373,18 @@ footer svg {
     height: 750px;
   }
 
-  #contact-info-container,
-  #contact-img {
+  #contact-info-container {
     width: 100%;
+    position: relative;
   }
 
   #contact-img {
     all: initial;
-    height: 600px;
+    height: 300px;
     object-fit: cover;
+    position: absolute;
     width: 100vw;
+    bottom: 1.5%;
     left: 0;
   }
 
